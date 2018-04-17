@@ -3,3 +3,4 @@ srpm:
 	./autogen.sh
 	./configure
 	make dist
+	rpmbuild -ts singularity-*.tar.gz
