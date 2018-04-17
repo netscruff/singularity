@@ -1,3 +1,4 @@
-./autogen.sh
-./configure
-make dist
+srpm:
+	./autogen.sh
+	./configure
+	make dist
