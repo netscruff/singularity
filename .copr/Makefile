@@ -1,5 +1,5 @@
 srpm:
-	dnf -y install libtool automake python3-devel -y
+	dnf -y install libtool automake python2-devel -y
 	./autogen.sh
 	./configure
 	make dist
